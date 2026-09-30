@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arkan Extension</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Arkan Extension</h1>
+      <p class="meta">رقم الهوية: <span id="nationalIdView"></span></p>
+      <p class="meta">الرقم المرجعي: <span id="referenceIdView"></span></p>
+      <button id="inquireBtn" type="button">استعلام</button>
+      <p id="status" class="status" hidden></p>
+      <pre id="jsonOut" class="json-out" hidden></pre>
+    </main>
+    <script src="inquiry.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
